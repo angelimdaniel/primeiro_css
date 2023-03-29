@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap');
+html{
+    scroll-behavior: smooth;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+#menu{
+    text-decoration: none;
+    position: fixed;
+    padding: 15px;
+    top: 50%;
+    width: 8em;
+    right: 10;
+    margin-top: -2,5em;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    background-color: #0c3a56;
+}
+#menu li{
+    list-style-type: none;
+}
+#menu li a{
+    text-decoration: none;
+    padding-bottom: 55px;
+    font-size: 18px;
+    line-height: 30px;
+    color: white;
+}
+li:hover, .ativado{
+    background-color: #4682B4; 
+}
+.tudo{
+    vertical-align: top;
+    display: inline-block;
+    background-color: #0c3a56;
+    box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px;
+}
+.box{
+    display: flex;
+    width: 100%;
+}
+.imagem{
+    margin: 0;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div img{
+    width: 300px;
+    height: 200px;
+}
+.texto h1{
+    text-align: center;
+}
+.texto{
+    display: inline-block;
+    width: 100%;
+    font-style: normal;
+    color: black;
+    text-align: justify;
+    word-spacing: 1px;
+    line-height: 30px; 
+    padding: 10px 15px 10px 15px;
+    color: white;
+}
+body{
+    height: 1000px;
+    width: 1000px; 
+    place-items: center;
+    position: relative;
+    left: 500px;
+    top: 100px;  
+}
+body{
+    background-image: url("../imagens/download.jpeg");
+    background-size: cover;
+    background-color: #0c3a56;
+    padding-top: 100px;
+    padding-right: 100px;
+}
